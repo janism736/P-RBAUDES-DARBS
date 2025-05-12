@@ -1,0 +1,109 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Vertikālā centrēšana */
+    align-items: center; /* Horizontālā centrēšana */
+    height: 100vh; /* Aizņem visu ekrāna augstumu */
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+table, th, td {
+    border:1px solid rgb(117, 3, 3);
+  }
+header {
+    background-color: #4a4a6a;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    width: 100%; /* Lai nodrošinātu, ka header aizņem visu platumu */
+}
+
+h2 {
+    color: #070513;
+    text-align: center;
+}
+h3{
+    color: #070513;
+    text-align: center;
+}
+li{
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+p{
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+th{
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+td{
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+
+.section {
+    padding: 2em;
+    border-bottom: 5px solid #ccc;
+    width: 60%; /* Iestatīts, lai sekcija aizņemtu 80% no ekrāna platuma */
+}
+.kaste{
+    
+    display: flex;
+   
+}
+.kastite{
+    
+display: inline;
+ 
+width: 100%;
+}
+
+.kastite2{
+    
+    display: inline;
+   
+    width: 100%;
+    }
+    
+
+    .kastite3{
+    
+        display: inline;
+        
+        width: 100%;
+        }
+.saturs {
+    padding: 20px;
+    background-color: #f4f4f4;
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+}
+
+
+
+
+footer {
+    background-color: #4a4a6a;
+    color: rgb(56, 90, 46);
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* .lapa {
+    display: flex;
+    justify-content: center; /* Horizontālā centrēšana */
+    /* align-items: center; /* Vertikālā centrēšana */
+    /* width: 100%;
+} */ 
